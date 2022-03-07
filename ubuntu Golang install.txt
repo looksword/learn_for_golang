@@ -1,0 +1,16 @@
+ubuntu golang
+
+
+
+#以root或者其他sudo用户身份运行下面的命令，下载并且解压Go二进制文件到/usr/local目录
+wget -c https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz -O - | sudo tar -xz -C /usr/local
+
+#将Go目录添加到$PATH环境变量，系统将会知道在哪里可以找到 Go 可执行文件
+export PATH=$PATH:/usr/local/go/bin
+source ~/.profile
+
+#通过打印Go版本号，验证安装过程
+go version
+
+
+
