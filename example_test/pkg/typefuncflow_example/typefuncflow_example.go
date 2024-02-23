@@ -1,7 +1,7 @@
 package typefuncflow_example
 
 import (
-	"example_test/pkg/calculator"
+	"example_test/pkg/typefuncflow_example/calculator"
 	"fmt"
 	"io"
 	"math"
